@@ -59,6 +59,8 @@ int main(){
     auto result = jobSequencing(deadline,profit,n);
 
     cout<<"Total Profit : "<<result.first<<endl;
+
+
     cout<<"Slots: \n";
     for(int i=1;i<result.second.size();i++){
         cout<<result.second[i]<< " ";
